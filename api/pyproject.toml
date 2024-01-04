@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "api"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.105.0"
+pydantic = "^2.5.2"
+uvicorn = "^0.24.0.post1"
+requests = "^2.31.0"
+bs4 = "^0.0.1"
+requests-html = "^0.10.0"
+pyppeteer = "^1.0.2"
+psycopg2-binary = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
