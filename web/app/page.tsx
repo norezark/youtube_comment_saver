@@ -7,6 +7,9 @@ export default function Home() {
         <main>
             <Container maxWidth="md">
                 <List>
+                    <ListItemButton component="a" href="/about">
+                        <ListItemText>このサイトについて</ListItemText>
+                    </ListItemButton>
                     <ListItemButton component="a" href="/channels">
                         <ListItemText>チャンネル一覧</ListItemText>
                     </ListItemButton>
