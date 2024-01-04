@@ -66,3 +66,12 @@ type VideoListProps = {
     videos: VideoResponse[];
     thumbnailVersion: ThumbnailVersion;
 };
+
+type StatusResponse = {
+    channelCount: number;
+    videoCount: number;
+    commentCount: number;
+    chatCount: number;
+    queriesPerDay: number;
+    queriesPerDayLimit: number;
+};
